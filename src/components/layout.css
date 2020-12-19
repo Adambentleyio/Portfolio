@@ -1,0 +1,22 @@
+.header {
+    background-color: peachpuff;
+    padding: 25px 15px;
+    margin: 20px 20px 0px 20px;
+}
+
+.header__nav {
+    display: flex;
+    color:slategrey
+}
+
+.header__link {
+    color: black;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.header__link-active {
+    color:azure
+}
