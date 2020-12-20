@@ -1,7 +1,7 @@
-.header {
-    background-color: peachpuff;
-    padding: 25px 15px;
-    margin: 20px 20px 0px 20px;
+body {
+    margin: 0;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 
 .header__nav {

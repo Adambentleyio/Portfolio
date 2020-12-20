@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 export default function Home() {
   return (
   <Layout>
+    <h3>I'm the index page</h3>
     </Layout>
     )
 }
