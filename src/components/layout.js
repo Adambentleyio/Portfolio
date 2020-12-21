@@ -1,9 +1,11 @@
 import React from 'react';
+import 'normalize.css';
+import styled from 'Styled-components';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import './layout.css';
-import 'normalize.css';
+import GlobalStyles from '../Styles/GlobalStyles';
 import { Link } from 'gatsby';
+
 
 
 // Layout component will render on each page
@@ -11,18 +13,20 @@ import { Link } from 'gatsby';
 // displays components we need to tell the function is accepts
 // props { children }
 
+const ContentStyles = styled.div`
+    padding: 2rem;
+`
+
 export default function Layout({ children }) {
     return (
-        <div>
-            <GlobalStyles>
+            <div>
+            <GlobalStyles />
             <Header />
-            <div className="header__nav">
-                <Link to="/contact" className="header__link" activeClassName="header__link-active">Contact</Link>
-                <Link to="/" className="header__link" activeClassName="header__link-active">Home</Link>
-            </div>
+            <ContentStyles>
+
             {children}
+            </ContentStyles>
             <Footer noun="God Damn Footer" />
-            </GlobalStyles>
-        </div>
+            </div>
     )
 }

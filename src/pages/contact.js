@@ -1,13 +1,14 @@
 import React from 'react';
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
+import '../components/layout.css';
+import NewComp from '../components/newcomp';
 
-const contact = () => {
+export default function contact(){
     return (
         <Layout>
-           <h2>I am the contact page</h2>
+           <h3>I am the contact page</h3>
+           <NewComp />
         </Layout>
     )
 }
-
-export default contact;
 

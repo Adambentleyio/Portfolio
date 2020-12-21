@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
@@ -18,5 +17,10 @@ body {
 }
 
 .header__link-active {
-    color:azure
+    color: goldenrod;
+
+}
+
+.header__link:hover {
+    color: var(--bg-primary)
 }
