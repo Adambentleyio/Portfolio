@@ -18,6 +18,12 @@ main {
 
 main h3 {
     font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+main p {
+    color: var(--text-primary);
 }
 
 .bio {
@@ -35,7 +41,7 @@ main h3 {
 
 .yum {
     grid-column: 4 / 5;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
     padding: 2rem;
     background-color: black;
 
@@ -55,6 +61,7 @@ main h3 {
     grid-column: 4 / 5;
     grid-row: 1 / 2;
     padding: 2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
 }
